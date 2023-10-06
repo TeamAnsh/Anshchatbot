@@ -29,7 +29,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"], prefixes=["/", "!"]))
 async def start(client, message):
-        await message.reply_text ("def start_panel(_):
+        await message.reply_text "("def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
