@@ -37,7 +37,7 @@ async def start(client, message):
         
         ],
     ]
-    return buttons")
+    return buttons")"
 
 
 @bot.on_message(
