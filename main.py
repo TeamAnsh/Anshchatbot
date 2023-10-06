@@ -29,13 +29,12 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"], prefixes=["/", "!"]))
 async def start(client, message):
-        await message.reply_text("def start_panel(_):
+        await message.reply_text ("def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
-            ),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+                text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true" ),
+        
         ],
     ]
     return buttons")
