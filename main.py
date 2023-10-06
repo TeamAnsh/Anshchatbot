@@ -39,6 +39,7 @@ async def is_admins(chat_id: int):
 EMOJIOS = [ 
       "🔍",
       "⚡",
+    
 ]
       
 START = f"""
@@ -60,8 +61,20 @@ async def restart(client, m: Message):
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓")
     await asyncio.sleep(0.2)
     await accha.edit("💋")
+    await asyncio.sleep(0.1)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪")
+    await asyncio.sleep(0.1)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║\n║\n║\n║\n║\n║")
+    await asyncio.sleep(0.1)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║\n║\n║\n║\n║\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await asyncio.sleep(0.1)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
     await asyncio.sleep(0.2)
-    await accha.edit("Now Enjoy")
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣🐰 @bunnycraxxchat 🐰\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await asyncio.sleep(0.2)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣🐰 @bunnycraxxchat 🐰\n║\n║➣🐰 @bunnyxworld 🐰\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await asyncio.sleep(0.2)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣🐰 @bunnycraxxchat 🐰\n║\n║➣🐰 @bunnyxworld 🐰\n║\n║➣🐰 @crackerbunny 🐰\n║\n╚══════ஜ۩۞۩ஜ═════╝")
 
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
