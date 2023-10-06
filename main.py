@@ -51,7 +51,7 @@ async def restart(client, m: Message):
     accha = await m.reply_text(
                 text = random.choice(EMOJIOS),
     )
-    await asyncio.sleep(1)
+    await asyncio.sleep(2)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠..")
     await asyncio.sleep(0.1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠...")
@@ -59,7 +59,7 @@ async def restart(client, m: Message):
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠....")
     await asyncio.sleep(0.1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓")
-    await asyncio.sleep(0.2)
+    await asyncio.sleep(0.5)
     await accha.edit("💋")
     await asyncio.sleep(0.1)
     await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪")
