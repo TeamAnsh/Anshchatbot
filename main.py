@@ -45,11 +45,10 @@ START = f"""
 **๏ Hie Baby🐒 ๏**
 """
 
-@bot.on_message(filters.command(["start", "aistart", f"start@{BOT_USERNAME}"]))
-async def restart(client, m: Message):
-    accha = await m.reply_text(
-                text = random.choice(EMOJIOS),
-    )
+@bot.on_message(filters.command(["start"], prefixes=["/", "!"]))
+async def start(client, message):
+        await message.reply_text("Hi! My name is Anshu")
+
     await asyncio.sleep(1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠..")
     await asyncio.sleep(0.1)
